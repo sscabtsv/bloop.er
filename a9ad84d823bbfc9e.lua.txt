@@ -1,0 +1,1753 @@
+-- Since you're using this product for free, HttpGets are not available as it sends a request to our server which is resource-consuming; if you want to crack key systems, bypass sanity checks, bypass key systems, the premium option is for you (#buy-premium on our discord).
+-- This file was generated with UnveilR 2.1.8 at discord.gg/threaded or discord.gg/aqfudJEEeE (hookOp is on).
+
+game:GetService("HttpService")
+local Turtorial = Instance.new("ScreenGui")
+local main = Instance.new("Frame")
+local Submit = Instance.new("TextButton")
+local UICorner = Instance.new("UICorner")
+local imput = Instance.new("TextBox")
+local TextBoxDisplay = Instance.new("TextBox")
+local UICorner_2 = Instance.new("UICorner")
+local CopyButton = Instance.new("TextButton")
+local UICorner_3 = Instance.new("UICorner")
+local JoinButton = Instance.new("TextButton")
+local UICorner_4 = Instance.new("UICorner")
+local shadow = Instance.new("Frame")
+Turtorial.Name = "Turtorial"
+local Players = game.Players
+local LocalPlayer = Players.LocalPlayer
+Turtorial.Parent = LocalPlayer:WaitForChild("PlayerGui")
+Turtorial.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+main.Name = "main"
+main.Parent = Turtorial
+local Color3_FromRGB = Color3.fromRGB
+main.BackgroundColor3 = Color3_FromRGB(40, 40, 40)
+main.AnchorPoint = Vector2.new(0.5, 0.5)
+local UDim2_New = UDim2.new
+main.Position = UDim2_New(0.5, 0, 0.5, 0)
+main.Size = UDim2_New(0.35, 0, 0.45, 0)
+main.Active = true
+main.Draggable = true
+shadow.Name = "shadow"
+shadow.Parent = main
+shadow.BackgroundColor3 = Color3_FromRGB(0, 0, 0)
+shadow.BackgroundTransparency = 0.6
+shadow.Position = UDim2_New(0, 5, 0, 5)
+shadow.Size = UDim2_New(1, 0, 1, 0)
+shadow.ZIndex = 0
+imput.Name = "imput"
+imput.Parent = main
+imput.BackgroundColor3 = Color3_FromRGB(57, 57, 57)
+imput.Position = UDim2_New(0.1, 0, 0.12, 0)
+imput.Size = UDim2_New(0.8, 0, 0.17, 0)
+local Enum_Font = Enum.Font
+imput.Font = Enum_Font.SourceSans
+imput.Text = "Enter Key"
+imput.TextColor3 = Color3_FromRGB(255, 255, 255)
+imput.TextSize = 20
+imput.ClearTextOnFocus = false
+Submit.Name = "Submit"
+Submit.Parent = main
+Submit.BackgroundColor3 = Color3_FromRGB(40, 120, 255)
+Submit.Position = UDim2_New(0.1, 0, 0.34, 0)
+Submit.Size = UDim2_New(0.8, 0, 0.12, 0)
+Submit.Font = Enum_Font.Highway
+Submit.Text = "Submit"
+Submit.TextColor3 = Color3_FromRGB(255, 255, 255)
+Submit.TextSize = 30
+Submit.TextWrapped = true
+Submit.TextStrokeTransparency = 0.7
+Submit.TextStrokeColor3 = Color3_FromRGB(0, 0, 0)
+local UDim_New = UDim.new
+UICorner.CornerRadius = UDim_New(0.15, 0)
+UICorner.Parent = Submit
+TextBoxDisplay.Name = "TextBoxDisplay"
+TextBoxDisplay.Parent = main
+TextBoxDisplay.BackgroundColor3 = Color3_FromRGB(57, 57, 57)
+TextBoxDisplay.Position = UDim2_New(0.1, 0, 0.49, 0)
+TextBoxDisplay.Size = UDim2_New(0.8, 0, 0.12, 0)
+TextBoxDisplay.Font = Enum_Font.SourceSans
+TextBoxDisplay.Text = "https://link-hub.net/256968/basketball-legends-ui1"
+TextBoxDisplay.TextColor3 = Color3_FromRGB(255, 255, 255)
+TextBoxDisplay.TextSize = 16
+TextBoxDisplay.ClearTextOnFocus = false
+TextBoxDisplay.TextEditable = false
+TextBoxDisplay.TextStrokeTransparency = 0.7
+TextBoxDisplay.TextStrokeColor3 = Color3_FromRGB(0, 0, 0)
+UICorner_2.CornerRadius = UDim_New(0.15, 0)
+UICorner_2.Parent = TextBoxDisplay
+CopyButton.Name = "CopyButton"
+CopyButton.Parent = main
+CopyButton.BackgroundColor3 = Color3_FromRGB(40, 120, 255)
+CopyButton.Position = UDim2_New(0.1, 0, 0.64, 0)
+CopyButton.Size = UDim2_New(0.8, 0, 0.12, 0)
+CopyButton.Font = Enum_Font.Highway
+CopyButton.Text = "Copy Key Link"
+CopyButton.TextColor3 = Color3_FromRGB(255, 255, 255)
+CopyButton.TextSize = 22
+CopyButton.TextStrokeTransparency = 0.7
+CopyButton.TextStrokeColor3 = Color3_FromRGB(0, 0, 0)
+UICorner_3.CornerRadius = UDim_New(0.15, 0)
+UICorner_3.Parent = CopyButton
+JoinButton.Name = "JoinButton"
+JoinButton.Parent = main
+JoinButton.BackgroundColor3 = Color3_FromRGB(40, 120, 255)
+JoinButton.Position = UDim2_New(0.1, 0, 0.8, 0)
+JoinButton.Size = UDim2_New(0.8, 0, 0.12, 0)
+JoinButton.Font = Enum_Font.Highway
+JoinButton.Text = "Join Our Discord"
+JoinButton.TextColor3 = Color3_FromRGB(255, 255, 255)
+JoinButton.TextSize = 25
+JoinButton.TextStrokeTransparency = 0.7
+JoinButton.TextStrokeColor3 = Color3_FromRGB(0, 0, 0)
+UICorner_4.CornerRadius = UDim_New(0.15, 0)
+UICorner_4.Parent = JoinButton
+local Connection
+Connection = Submit.MouseButton1Down:Connect(function(X) -- args: X_2, Y
+    local var7 = game:HttpGet("https://pastebin.com/raw/xjxJ7Y1G")
+    if var7 then -- ran, expr id 1, has an else.
+        local Text = imput.Text
+        local _ = (Text == var7)
+        -- true, eq id 1
+    end
+    main.Visible = false
+    local Loaded_Var8 = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+    local _call10 = Loaded_Var8.CreateLib("🏀 Basketball Legends 🏀 | Legend HandlesYT", "Serpent")
+    local MainFeatures = _call10:NewTab("Main-Features")
+    local Settings = _call10:NewTab("Settings")
+    local MainFeatures_2 = MainFeatures:NewSection("Main-Features")
+    local Settings_2 = Settings:NewSection("Settings")
+    local _ = MainFeatures_2:NewButton("Aimbot (Auto Green)", "Hold And Should Green", function(p1_0, p2_0, p3_0, p4_0)
+        getgenv().config = {
+            Time = 0.045,
+            Size = 0.9,
+        };
+        local UserInputService_2 = game:GetService("UserInputService");
+        local TweenService = game:GetService("TweenService");
+        local Players_4 = game:GetService("Players");
+        local LocalPlayer_4 = Players.LocalPlayer;
+        local PlayerGui_2 = LocalPlayer.PlayerGui;
+        local Visual = PlayerGui_2.Visual;
+        local Shooting = Visual.Shooting;
+        local Bar = Shooting.Bar;
+        local Connection_4;
+        Connection_4 = UserInputService_2.InputBegan:Connect(function(Input, GameProcessedEvent, p3_0) -- args: Input_2, GameProcessedEvent_2;
+            local var404 = (GameProcessedEvent and 13561246); -- 13561246
+        end);
+    end)
+    local Enum_KeyCode = Enum.KeyCode
+    MainFeatures_2:NewKeybind("Auto Shoot (Greens)", "Choose Key For Auto Shoot", Enum_KeyCode.Q, function(p1_0, p2_0, p3_0)
+        Env.keypress(69)
+        wait(0.323)
+        Env.keyrelease(69)
+    end)
+    game:IsLoaded()
+    wait()
+    if game:IsLoaded() then -- ran, expr id 2, has an else.
+    end
+    local LocalPlayer_2 = game:service("Players").LocalPlayer
+    wait()
+    if LocalPlayer_2.Character then -- ran, expr id 3, has an else.
+    end
+    local RunService = game:service("RunService")
+    getgenv().MyParkMultiplier = 0.1
+    getgenv().FiveVFiveMultiplier = 0.05
+    local InputBegan = game:service("UserInputService").InputBegan
+    local _ = InputBegan:connect(function(p1_0, p2_0, p3_0, p4_0, p5_0, p6_0)
+        local KeyCode = p1_0.KeyCode;
+        local LeftBracket = Enum_KeyCode.LeftBracket;
+        local var22 = (KeyCode == LeftBracket);
+        -- false, eq id 2
+        local KeyCode_2 = p1_0.KeyCode;
+        local RightBracket = Enum_KeyCode.RightBracket;
+        local var24 = (KeyCode_2 == RightBracket);
+        -- false, eq id 3
+        local var25 = (var24 and 15896550);
+    end)
+    local _ = MainFeatures_2:NewToggle("Bypass Speed (5v5)", "Bypasses Speed for 5v5 mode", function(p1_0, p2_0, p3_0, p4_0, p5_0, p6_0)
+        local var26 = (p1_0 and 12803463); -- 12803463
+        local var27 = (var26 or 11127636);
+        local var28 = (p1_0 and 13619104); -- 13619104
+        local var29 = (var28 or 16472567);
+        local Character_3 = LocalPlayer_2.Character;
+        local HumanoidRootPart = Character_3.HumanoidRootPart;
+        local Character_4 = LocalPlayer_2.Character;
+        local HumanoidRootPart_2 = Character_4.HumanoidRootPart;
+        local CFrame = HumanoidRootPart_2.CFrame;
+        local Character_5 = LocalPlayer_2.Character;
+        local Humanoid = Character_5.Humanoid;
+        local MoveDirection = Humanoid.MoveDirection;
+        local var30 = MoveDirection * 0.05;
+        local var31 = CFrame + var30;
+        HumanoidRootPart.CFrame = var31;
+        local Stepped = RunService.Stepped;
+        local Wait = Stepped.Wait;
+        local Wait_2 = Stepped:Wait();
+        local var32 = (p1_0 and 13619104); -- 13619104
+        local var33 = (var32 or 16472567);
+        local Character_6 = LocalPlayer_2.Character;
+        local HumanoidRootPart_3 = Character_6.HumanoidRootPart;
+        local Character_7 = LocalPlayer_2.Character;
+        local HumanoidRootPart_4 = Character_7.HumanoidRootPart;
+        local CFrame_2 = HumanoidRootPart_4.CFrame;
+        local Character_8 = LocalPlayer_2.Character;
+        local Humanoid_2 = Character_8.Humanoid;
+        local MoveDirection_2 = Humanoid_2.MoveDirection;
+        local var34 = MoveDirection_2 * 0.05;
+        local var35 = CFrame_2 + var34;
+        HumanoidRootPart_3.CFrame = var35;
+        local Stepped_2 = RunService.Stepped;
+        local Wait_3 = Stepped_2.Wait;
+        local Wait_4 = Stepped_2:Wait();
+        local var36 = (p1_0 and 13619104); -- 13619104
+        local var37 = (var36 or 16472567);
+        local Character_9 = LocalPlayer_2.Character;
+        local HumanoidRootPart_5 = Character_9.HumanoidRootPart;
+        local Character_10 = LocalPlayer_2.Character;
+        local HumanoidRootPart_6 = Character_10.HumanoidRootPart;
+        local CFrame_3 = HumanoidRootPart_6.CFrame;
+        local Character_11 = LocalPlayer_2.Character;
+        local Humanoid_3 = Character_11.Humanoid;
+        local MoveDirection_3 = Humanoid_3.MoveDirection;
+        local var38 = MoveDirection_3 * 0.05;
+        local var39 = CFrame_3 + var38;
+        HumanoidRootPart_5.CFrame = var39;
+        local Stepped_3 = RunService.Stepped;
+        local Wait_5 = Stepped_3.Wait;
+        local Wait_6 = Stepped_3:Wait();
+        local var40 = (p1_0 and 13619104); -- 13619104
+        local var41 = (var40 or 16472567);
+        local Character_12 = LocalPlayer_2.Character;
+        local HumanoidRootPart_7 = Character_12.HumanoidRootPart;
+        local Character_13 = LocalPlayer_2.Character;
+        local HumanoidRootPart_8 = Character_13.HumanoidRootPart;
+        local CFrame_4 = HumanoidRootPart_8.CFrame;
+        local Character_14 = LocalPlayer_2.Character;
+        local Humanoid_4 = Character_14.Humanoid;
+        local MoveDirection_4 = Humanoid_4.MoveDirection;
+        local var42 = MoveDirection_4 * 0.05;
+        local var43 = CFrame_4 + var42;
+        HumanoidRootPart_7.CFrame = var43;
+        local Stepped_4 = RunService.Stepped;
+        local Wait_7 = Stepped_4.Wait;
+        local Wait_8 = Stepped_4:Wait();
+        local var44 = (p1_0 and 13619104); -- 13619104
+        local var45 = (var44 or 16472567);
+        local Character_15 = LocalPlayer_2.Character;
+        local HumanoidRootPart_9 = Character_15.HumanoidRootPart;
+        local Character_16 = LocalPlayer_2.Character;
+        local HumanoidRootPart_10 = Character_16.HumanoidRootPart;
+        local CFrame_5 = HumanoidRootPart_10.CFrame;
+        local Character_17 = LocalPlayer_2.Character;
+        local Humanoid_5 = Character_17.Humanoid;
+        local MoveDirection_5 = Humanoid_5.MoveDirection;
+        local var46 = MoveDirection_5 * 0.05;
+        local var47 = CFrame_5 + var46;
+        HumanoidRootPart_9.CFrame = var47;
+        local Stepped_5 = RunService.Stepped;
+        local Wait_9 = Stepped_5.Wait;
+        local Wait_10 = Stepped_5:Wait();
+        local var48 = (p1_0 and 13619104); -- 13619104
+        local var49 = (var48 or 16472567);
+        local Character_18 = LocalPlayer_2.Character;
+        local HumanoidRootPart_11 = Character_18.HumanoidRootPart;
+        local Character_19 = LocalPlayer_2.Character;
+        local HumanoidRootPart_12 = Character_19.HumanoidRootPart;
+        local CFrame_6 = HumanoidRootPart_12.CFrame;
+        local Character_20 = LocalPlayer_2.Character;
+        local Humanoid_6 = Character_20.Humanoid;
+        local MoveDirection_6 = Humanoid_6.MoveDirection;
+        local var50 = MoveDirection_6 * 0.05;
+        local var51 = CFrame_6 + var50;
+        HumanoidRootPart_11.CFrame = var51;
+        local Stepped_6 = RunService.Stepped;
+        local Wait_11 = Stepped_6.Wait;
+        local Wait_12 = Stepped_6:Wait();
+        local var52 = (p1_0 and 13619104); -- 13619104
+        local var53 = (var52 or 16472567);
+        local Character_21 = LocalPlayer_2.Character;
+        local HumanoidRootPart_13 = Character_21.HumanoidRootPart;
+        local Character_22 = LocalPlayer_2.Character;
+        local HumanoidRootPart_14 = Character_22.HumanoidRootPart;
+        local CFrame_7 = HumanoidRootPart_14.CFrame;
+        local Character_23 = LocalPlayer_2.Character;
+        local Humanoid_7 = Character_23.Humanoid;
+        local MoveDirection_7 = Humanoid_7.MoveDirection;
+        local var54 = MoveDirection_7 * 0.05;
+        local var55 = CFrame_7 + var54;
+        HumanoidRootPart_13.CFrame = var55;
+        local Stepped_7 = RunService.Stepped;
+        local Wait_13 = Stepped_7.Wait;
+        local Wait_14 = Stepped_7:Wait();
+        local var56 = (p1_0 and 13619104); -- 13619104
+        local var57 = (var56 or 16472567);
+        local Character_24 = LocalPlayer_2.Character;
+        local HumanoidRootPart_15 = Character_24.HumanoidRootPart;
+        local Character_25 = LocalPlayer_2.Character;
+        local HumanoidRootPart_16 = Character_25.HumanoidRootPart;
+        local CFrame_8 = HumanoidRootPart_16.CFrame;
+        local Character_26 = LocalPlayer_2.Character;
+        local Humanoid_8 = Character_26.Humanoid;
+        local MoveDirection_8 = Humanoid_8.MoveDirection;
+        local var58 = MoveDirection_8 * 0.05;
+        local var59 = CFrame_8 + var58;
+        HumanoidRootPart_15.CFrame = var59;
+        local Stepped_8 = RunService.Stepped;
+        local Wait_15 = Stepped_8.Wait;
+        local Wait_16 = Stepped_8:Wait();
+        local var60 = (p1_0 and 13619104); -- 13619104
+        local var61 = (var60 or 16472567);
+        local Character_27 = LocalPlayer_2.Character;
+        local HumanoidRootPart_17 = Character_27.HumanoidRootPart;
+        local Character_28 = LocalPlayer_2.Character;
+        local HumanoidRootPart_18 = Character_28.HumanoidRootPart;
+        local CFrame_9 = HumanoidRootPart_18.CFrame;
+        local Character_29 = LocalPlayer_2.Character;
+        local Humanoid_9 = Character_29.Humanoid;
+        local MoveDirection_9 = Humanoid_9.MoveDirection;
+        local var62 = MoveDirection_9 * 0.05;
+        local var63 = CFrame_9 + var62;
+        HumanoidRootPart_17.CFrame = var63;
+        local Stepped_9 = RunService.Stepped;
+        local Wait_17 = Stepped_9.Wait;
+        local Wait_18 = Stepped_9:Wait();
+        local var64 = (p1_0 and 13619104); -- 13619104
+        local var65 = (var64 or 16472567);
+        local Character_30 = LocalPlayer_2.Character;
+        local HumanoidRootPart_19 = Character_30.HumanoidRootPart;
+        local Character_31 = LocalPlayer_2.Character;
+        local HumanoidRootPart_20 = Character_31.HumanoidRootPart;
+        local CFrame_10 = HumanoidRootPart_20.CFrame;
+        local Character_32 = LocalPlayer_2.Character;
+        local Humanoid_10 = Character_32.Humanoid;
+        local MoveDirection_10 = Humanoid_10.MoveDirection;
+        local var66 = MoveDirection_10 * 0.05;
+        local var67 = CFrame_10 + var66;
+        HumanoidRootPart_19.CFrame = var67;
+        local Stepped_10 = RunService.Stepped;
+        local Wait_19 = Stepped_10.Wait;
+        local Wait_20 = Stepped_10:Wait();
+        local var68 = (p1_0 and 13619104); -- 13619104
+        local var69 = (var68 or 16472567);
+        local Character_33 = LocalPlayer_2.Character;
+        local HumanoidRootPart_21 = Character_33.HumanoidRootPart;
+        local Character_34 = LocalPlayer_2.Character;
+        local HumanoidRootPart_22 = Character_34.HumanoidRootPart;
+        local CFrame_11 = HumanoidRootPart_22.CFrame;
+        local Character_35 = LocalPlayer_2.Character;
+        local Humanoid_11 = Character_35.Humanoid;
+        local MoveDirection_11 = Humanoid_11.MoveDirection;
+        local var70 = MoveDirection_11 * 0.05;
+        local var71 = CFrame_11 + var70;
+        HumanoidRootPart_21.CFrame = var71;
+        local Stepped_11 = RunService.Stepped;
+        local Wait_21 = Stepped_11.Wait;
+        local Wait_22 = Stepped_11:Wait();
+        local var72 = (p1_0 and 13619104); -- 13619104
+        local var73 = (var72 or 16472567);
+        local Character_36 = LocalPlayer_2.Character;
+        local HumanoidRootPart_23 = Character_36.HumanoidRootPart;
+        local Character_37 = LocalPlayer_2.Character;
+        local HumanoidRootPart_24 = Character_37.HumanoidRootPart;
+        local CFrame_12 = HumanoidRootPart_24.CFrame;
+        local Character_38 = LocalPlayer_2.Character;
+        local Humanoid_12 = Character_38.Humanoid;
+        local MoveDirection_12 = Humanoid_12.MoveDirection;
+        local var74 = MoveDirection_12 * 0.05;
+        local var75 = CFrame_12 + var74;
+        HumanoidRootPart_23.CFrame = var75;
+        local Stepped_12 = RunService.Stepped;
+        local Wait_23 = Stepped_12.Wait;
+        local Wait_24 = Stepped_12:Wait();
+        local var76 = (p1_0 and 13619104); -- 13619104
+        local var77 = (var76 or 16472567);
+        local Character_39 = LocalPlayer_2.Character;
+        local HumanoidRootPart_25 = Character_39.HumanoidRootPart;
+        local Character_40 = LocalPlayer_2.Character;
+        local HumanoidRootPart_26 = Character_40.HumanoidRootPart;
+        local CFrame_13 = HumanoidRootPart_26.CFrame;
+        local Character_41 = LocalPlayer_2.Character;
+        local Humanoid_13 = Character_41.Humanoid;
+        local MoveDirection_13 = Humanoid_13.MoveDirection;
+        local var78 = MoveDirection_13 * 0.05;
+        local var79 = CFrame_13 + var78;
+        HumanoidRootPart_25.CFrame = var79;
+        local Stepped_13 = RunService.Stepped;
+        local Wait_25 = Stepped_13.Wait;
+        local Wait_26 = Stepped_13:Wait();
+        local var80 = (p1_0 and 13619104); -- 13619104
+        local var81 = (var80 or 16472567);
+        local Character_42 = LocalPlayer_2.Character;
+        local HumanoidRootPart_27 = Character_42.HumanoidRootPart;
+        local Character_43 = LocalPlayer_2.Character;
+        local HumanoidRootPart_28 = Character_43.HumanoidRootPart;
+        local CFrame_14 = HumanoidRootPart_28.CFrame;
+        local Character_44 = LocalPlayer_2.Character;
+        local Humanoid_14 = Character_44.Humanoid;
+        local MoveDirection_14 = Humanoid_14.MoveDirection;
+        local var82 = MoveDirection_14 * 0.05;
+        local var83 = CFrame_14 + var82;
+        HumanoidRootPart_27.CFrame = var83;
+        local Stepped_14 = RunService.Stepped;
+        local Wait_27 = Stepped_14.Wait;
+        local Wait_28 = Stepped_14:Wait();
+        local var84 = (p1_0 and 13619104); -- 13619104
+        local var85 = (var84 or 16472567);
+        local Character_45 = LocalPlayer_2.Character;
+        local HumanoidRootPart_29 = Character_45.HumanoidRootPart;
+        local Character_46 = LocalPlayer_2.Character;
+        local HumanoidRootPart_30 = Character_46.HumanoidRootPart;
+        local CFrame_15 = HumanoidRootPart_30.CFrame;
+        local Character_47 = LocalPlayer_2.Character;
+        local Humanoid_15 = Character_47.Humanoid;
+        local MoveDirection_15 = Humanoid_15.MoveDirection;
+        local var86 = MoveDirection_15 * 0.05;
+        local var87 = CFrame_15 + var86;
+        HumanoidRootPart_29.CFrame = var87;
+        local Stepped_15 = RunService.Stepped;
+        local Wait_29 = Stepped_15.Wait;
+        local Wait_30 = Stepped_15:Wait();
+        local var88 = (p1_0 and 13619104); -- 13619104
+        local var89 = (var88 or 16472567);
+        local Character_48 = LocalPlayer_2.Character;
+        local HumanoidRootPart_31 = Character_48.HumanoidRootPart;
+        local Character_49 = LocalPlayer_2.Character;
+        local HumanoidRootPart_32 = Character_49.HumanoidRootPart;
+        local CFrame_16 = HumanoidRootPart_32.CFrame;
+        local Character_50 = LocalPlayer_2.Character;
+        local Humanoid_16 = Character_50.Humanoid;
+        local MoveDirection_16 = Humanoid_16.MoveDirection;
+        local var90 = MoveDirection_16 * 0.05;
+        local var91 = CFrame_16 + var90;
+        HumanoidRootPart_31.CFrame = var91;
+        local Stepped_16 = RunService.Stepped;
+        local Wait_31 = Stepped_16.Wait;
+        local Wait_32 = Stepped_16:Wait();
+        local var92 = (p1_0 and 13619104); -- 13619104
+        local var93 = (var92 or 16472567);
+        local Character_51 = LocalPlayer_2.Character;
+        local HumanoidRootPart_33 = Character_51.HumanoidRootPart;
+        local Character_52 = LocalPlayer_2.Character;
+        local HumanoidRootPart_34 = Character_52.HumanoidRootPart;
+        local CFrame_17 = HumanoidRootPart_34.CFrame;
+        local Character_53 = LocalPlayer_2.Character;
+        local Humanoid_17 = Character_53.Humanoid;
+        local MoveDirection_17 = Humanoid_17.MoveDirection;
+        local var94 = MoveDirection_17 * 0.05;
+        local var95 = CFrame_17 + var94;
+        HumanoidRootPart_33.CFrame = var95;
+        local Stepped_17 = RunService.Stepped;
+        local Wait_33 = Stepped_17.Wait;
+        local Wait_34 = Stepped_17:Wait();
+        local var96 = (p1_0 and 13619104); -- 13619104
+        local var97 = (var96 or 16472567);
+        local Character_54 = LocalPlayer_2.Character;
+        local HumanoidRootPart_35 = Character_54.HumanoidRootPart;
+        local Character_55 = LocalPlayer_2.Character;
+        local HumanoidRootPart_36 = Character_55.HumanoidRootPart;
+        local CFrame_18 = HumanoidRootPart_36.CFrame;
+        local Character_56 = LocalPlayer_2.Character;
+        local Humanoid_18 = Character_56.Humanoid;
+        local MoveDirection_18 = Humanoid_18.MoveDirection;
+        local var98 = MoveDirection_18 * 0.05;
+        local var99 = CFrame_18 + var98;
+        HumanoidRootPart_35.CFrame = var99;
+        local Stepped_18 = RunService.Stepped;
+        local Wait_35 = Stepped_18.Wait;
+        local Wait_36 = Stepped_18:Wait();
+        local var100 = (p1_0 and 13619104); -- 13619104
+        local var101 = (var100 or 16472567);
+        local Character_57 = LocalPlayer_2.Character;
+        local HumanoidRootPart_37 = Character_57.HumanoidRootPart;
+        local Character_58 = LocalPlayer_2.Character;
+        local HumanoidRootPart_38 = Character_58.HumanoidRootPart;
+        local CFrame_19 = HumanoidRootPart_38.CFrame;
+        local Character_59 = LocalPlayer_2.Character;
+        local Humanoid_19 = Character_59.Humanoid;
+        local MoveDirection_19 = Humanoid_19.MoveDirection;
+        local var102 = MoveDirection_19 * 0.05;
+        local var103 = CFrame_19 + var102;
+        HumanoidRootPart_37.CFrame = var103;
+        local Stepped_19 = RunService.Stepped;
+        local Wait_37 = Stepped_19.Wait;
+        local Wait_38 = Stepped_19:Wait();
+        local var104 = (p1_0 and 13619104); -- 13619104
+        local var105 = (var104 or 16472567);
+        local Character_60 = LocalPlayer_2.Character;
+        local HumanoidRootPart_39 = Character_60.HumanoidRootPart;
+        local Character_61 = LocalPlayer_2.Character;
+        local HumanoidRootPart_40 = Character_61.HumanoidRootPart;
+        local CFrame_20 = HumanoidRootPart_40.CFrame;
+        local Character_62 = LocalPlayer_2.Character;
+        local Humanoid_20 = Character_62.Humanoid;
+        local MoveDirection_20 = Humanoid_20.MoveDirection;
+        local var106 = MoveDirection_20 * 0.05;
+        local var107 = CFrame_20 + var106;
+        HumanoidRootPart_39.CFrame = var107;
+        local Stepped_20 = RunService.Stepped;
+        local Wait_39 = Stepped_20.Wait;
+        local Wait_40 = Stepped_20:Wait();
+        local var108 = (p1_0 and 13619104); -- 13619104
+        local var109 = (var108 or 16472567);
+        local Character_63 = LocalPlayer_2.Character;
+        local HumanoidRootPart_41 = Character_63.HumanoidRootPart;
+        local Character_64 = LocalPlayer_2.Character;
+        local HumanoidRootPart_42 = Character_64.HumanoidRootPart;
+        local CFrame_21 = HumanoidRootPart_42.CFrame;
+        local Character_65 = LocalPlayer_2.Character;
+        local Humanoid_21 = Character_65.Humanoid;
+        local MoveDirection_21 = Humanoid_21.MoveDirection;
+        local var110 = MoveDirection_21 * 0.05;
+        local var111 = CFrame_21 + var110;
+        HumanoidRootPart_41.CFrame = var111;
+        local Stepped_21 = RunService.Stepped;
+        local Wait_41 = Stepped_21.Wait;
+        local Wait_42 = Stepped_21:Wait();
+        local var112 = (p1_0 and 13619104); -- 13619104
+        local var113 = (var112 or 16472567);
+        local Character_66 = LocalPlayer_2.Character;
+        local HumanoidRootPart_43 = Character_66.HumanoidRootPart;
+        local Character_67 = LocalPlayer_2.Character;
+        local HumanoidRootPart_44 = Character_67.HumanoidRootPart;
+        local CFrame_22 = HumanoidRootPart_44.CFrame;
+        local Character_68 = LocalPlayer_2.Character;
+        local Humanoid_22 = Character_68.Humanoid;
+        local MoveDirection_22 = Humanoid_22.MoveDirection;
+        local var114 = MoveDirection_22 * 0.05;
+        local var115 = CFrame_22 + var114;
+        HumanoidRootPart_43.CFrame = var115;
+        local Stepped_22 = RunService.Stepped;
+        local Wait_43 = Stepped_22.Wait;
+        local Wait_44 = Stepped_22:Wait();
+        local var116 = (p1_0 and 13619104); -- 13619104
+        local var117 = (var116 or 16472567);
+        local Character_69 = LocalPlayer_2.Character;
+        local HumanoidRootPart_45 = Character_69.HumanoidRootPart;
+        local Character_70 = LocalPlayer_2.Character;
+        local HumanoidRootPart_46 = Character_70.HumanoidRootPart;
+        local CFrame_23 = HumanoidRootPart_46.CFrame;
+        local Character_71 = LocalPlayer_2.Character;
+        local Humanoid_23 = Character_71.Humanoid;
+        local MoveDirection_23 = Humanoid_23.MoveDirection;
+        local var118 = MoveDirection_23 * 0.05;
+        local var119 = CFrame_23 + var118;
+        HumanoidRootPart_45.CFrame = var119;
+        local Stepped_23 = RunService.Stepped;
+        local Wait_45 = Stepped_23.Wait;
+        local Wait_46 = Stepped_23:Wait();
+        local var120 = (p1_0 and 13619104); -- 13619104
+        local var121 = (var120 or 16472567);
+        local Character_72 = LocalPlayer_2.Character;
+        local HumanoidRootPart_47 = Character_72.HumanoidRootPart;
+        local Character_73 = LocalPlayer_2.Character;
+        local HumanoidRootPart_48 = Character_73.HumanoidRootPart;
+        local CFrame_24 = HumanoidRootPart_48.CFrame;
+        local Character_74 = LocalPlayer_2.Character;
+        local Humanoid_24 = Character_74.Humanoid;
+        local MoveDirection_24 = Humanoid_24.MoveDirection;
+        local var122 = MoveDirection_24 * 0.05;
+        local var123 = CFrame_24 + var122;
+        HumanoidRootPart_47.CFrame = var123;
+        local Stepped_24 = RunService.Stepped;
+        local Wait_47 = Stepped_24.Wait;
+        local Wait_48 = Stepped_24:Wait();
+        local var124 = (p1_0 and 13619104); -- 13619104
+        local var125 = (var124 or 16472567);
+        local Character_75 = LocalPlayer_2.Character;
+        local HumanoidRootPart_49 = Character_75.HumanoidRootPart;
+        local Character_76 = LocalPlayer_2.Character;
+        local HumanoidRootPart_50 = Character_76.HumanoidRootPart;
+        local CFrame_25 = HumanoidRootPart_50.CFrame;
+        local Character_77 = LocalPlayer_2.Character;
+        local Humanoid_25 = Character_77.Humanoid;
+        local MoveDirection_25 = Humanoid_25.MoveDirection;
+        local var126 = MoveDirection_25 * 0.05;
+        local var127 = CFrame_25 + var126;
+        HumanoidRootPart_49.CFrame = var127;
+        local Stepped_25 = RunService.Stepped;
+        local Wait_49 = Stepped_25.Wait;
+        local Wait_50 = Stepped_25:Wait();
+        local var128 = (p1_0 and 13619104); -- 13619104
+        local var129 = (var128 or 16472567);
+        local Character_78 = LocalPlayer_2.Character;
+        local HumanoidRootPart_51 = Character_78.HumanoidRootPart;
+        local Character_79 = LocalPlayer_2.Character;
+        local HumanoidRootPart_52 = Character_79.HumanoidRootPart;
+        local CFrame_26 = HumanoidRootPart_52.CFrame;
+        local Character_80 = LocalPlayer_2.Character;
+        local Humanoid_26 = Character_80.Humanoid;
+        local MoveDirection_26 = Humanoid_26.MoveDirection;
+        local var130 = MoveDirection_26 * 0.05;
+        local var131 = CFrame_26 + var130;
+        HumanoidRootPart_51.CFrame = var131;
+        local Stepped_26 = RunService.Stepped;
+        local Wait_51 = Stepped_26.Wait;
+        local Wait_52 = Stepped_26:Wait();
+        local var132 = (p1_0 and 13619104); -- 13619104
+        local var133 = (var132 or 16472567);
+        local Character_81 = LocalPlayer_2.Character;
+        local HumanoidRootPart_53 = Character_81.HumanoidRootPart;
+        local Character_82 = LocalPlayer_2.Character;
+        local HumanoidRootPart_54 = Character_82.HumanoidRootPart;
+        local CFrame_27 = HumanoidRootPart_54.CFrame;
+        local Character_83 = LocalPlayer_2.Character;
+        local Humanoid_27 = Character_83.Humanoid;
+        local MoveDirection_27 = Humanoid_27.MoveDirection;
+        local var134 = MoveDirection_27 * 0.05;
+        local var135 = CFrame_27 + var134;
+        HumanoidRootPart_53.CFrame = var135;
+        local Stepped_27 = RunService.Stepped;
+        local Wait_53 = Stepped_27.Wait;
+        local Wait_54 = Stepped_27:Wait();
+        local var136 = (p1_0 and 13619104); -- 13619104
+        local var137 = (var136 or 16472567);
+        local Character_84 = LocalPlayer_2.Character;
+        local HumanoidRootPart_55 = Character_84.HumanoidRootPart;
+        local Character_85 = LocalPlayer_2.Character;
+        local HumanoidRootPart_56 = Character_85.HumanoidRootPart;
+        local CFrame_28 = HumanoidRootPart_56.CFrame;
+        local Character_86 = LocalPlayer_2.Character;
+        local Humanoid_28 = Character_86.Humanoid;
+        local MoveDirection_28 = Humanoid_28.MoveDirection;
+        local var138 = MoveDirection_28 * 0.05;
+        local var139 = CFrame_28 + var138;
+        HumanoidRootPart_55.CFrame = var139;
+        local Stepped_28 = RunService.Stepped;
+        local Wait_55 = Stepped_28.Wait;
+        local Wait_56 = Stepped_28:Wait();
+        local var140 = (p1_0 and 13619104); -- 13619104
+        local var141 = (var140 or 16472567);
+        local Character_87 = LocalPlayer_2.Character;
+        local HumanoidRootPart_57 = Character_87.HumanoidRootPart;
+        local Character_88 = LocalPlayer_2.Character;
+        local HumanoidRootPart_58 = Character_88.HumanoidRootPart;
+        local CFrame_29 = HumanoidRootPart_58.CFrame;
+        local Character_89 = LocalPlayer_2.Character;
+        local Humanoid_29 = Character_89.Humanoid;
+        local MoveDirection_29 = Humanoid_29.MoveDirection;
+        local var142 = MoveDirection_29 * 0.05;
+        local var143 = CFrame_29 + var142;
+        HumanoidRootPart_57.CFrame = var143;
+        local Stepped_29 = RunService.Stepped;
+        local Wait_57 = Stepped_29.Wait;
+        local Wait_58 = Stepped_29:Wait();
+        local var144 = (p1_0 and 13619104); -- 13619104
+        local var145 = (var144 or 16472567);
+        error("[internal]:659: too many operations")
+    end)
+    local _ = MainFeatures_2:NewToggle("Bypass Speed (MyPark)", "Bypasses Speed for MyPark mode", function(p1_0, p2_0, p3_0)
+        local var146 = (p1_0 and 15287763); -- 15287763
+        local var147 = (var146 or 16739327);
+        local var148 = (p1_0 and 16742399); -- 16742399
+        local Character_90 = LocalPlayer_2.Character;
+        local HumanoidRootPart_59 = Character_90.HumanoidRootPart;
+        local Character_91 = LocalPlayer_2.Character;
+        local HumanoidRootPart_60 = Character_91.HumanoidRootPart;
+        local CFrame_30 = HumanoidRootPart_60.CFrame;
+        local Character_92 = LocalPlayer_2.Character;
+        local Humanoid_30 = Character_92.Humanoid;
+        local MoveDirection_30 = Humanoid_30.MoveDirection;
+        local var149 = MoveDirection_30 * 0.1;
+        local var150 = CFrame_30 + var149;
+        HumanoidRootPart_59.CFrame = var150;
+        local Stepped_30 = RunService.Stepped;
+        local Wait_59 = Stepped_30.Wait;
+        local Wait_60 = Stepped_30:Wait();
+        local var151 = (p1_0 and 16742399); -- 16742399
+        local Character_93 = LocalPlayer_2.Character;
+        local HumanoidRootPart_61 = Character_93.HumanoidRootPart;
+        local Character_94 = LocalPlayer_2.Character;
+        local HumanoidRootPart_62 = Character_94.HumanoidRootPart;
+        local CFrame_31 = HumanoidRootPart_62.CFrame;
+        local Character_95 = LocalPlayer_2.Character;
+        local Humanoid_31 = Character_95.Humanoid;
+        local MoveDirection_31 = Humanoid_31.MoveDirection;
+        local var152 = MoveDirection_31 * 0.1;
+        local var153 = CFrame_31 + var152;
+        HumanoidRootPart_61.CFrame = var153;
+        local Stepped_31 = RunService.Stepped;
+        local Wait_61 = Stepped_31.Wait;
+        local Wait_62 = Stepped_31:Wait();
+        local var154 = (p1_0 and 16742399); -- 16742399
+        local Character_96 = LocalPlayer_2.Character;
+        local HumanoidRootPart_63 = Character_96.HumanoidRootPart;
+        local Character_97 = LocalPlayer_2.Character;
+        local HumanoidRootPart_64 = Character_97.HumanoidRootPart;
+        local CFrame_32 = HumanoidRootPart_64.CFrame;
+        local Character_98 = LocalPlayer_2.Character;
+        local Humanoid_32 = Character_98.Humanoid;
+        local MoveDirection_32 = Humanoid_32.MoveDirection;
+        local var155 = MoveDirection_32 * 0.1;
+        local var156 = CFrame_32 + var155;
+        HumanoidRootPart_63.CFrame = var156;
+        local Stepped_32 = RunService.Stepped;
+        local Wait_63 = Stepped_32.Wait;
+        local Wait_64 = Stepped_32:Wait();
+        local var157 = (p1_0 and 16742399); -- 16742399
+        local Character_99 = LocalPlayer_2.Character;
+        local HumanoidRootPart_65 = Character_99.HumanoidRootPart;
+        local Character_100 = LocalPlayer_2.Character;
+        local HumanoidRootPart_66 = Character_100.HumanoidRootPart;
+        local CFrame_33 = HumanoidRootPart_66.CFrame;
+        local Character_101 = LocalPlayer_2.Character;
+        local Humanoid_33 = Character_101.Humanoid;
+        local MoveDirection_33 = Humanoid_33.MoveDirection;
+        local var158 = MoveDirection_33 * 0.1;
+        local var159 = CFrame_33 + var158;
+        HumanoidRootPart_65.CFrame = var159;
+        local Stepped_33 = RunService.Stepped;
+        local Wait_65 = Stepped_33.Wait;
+        local Wait_66 = Stepped_33:Wait();
+        local var160 = (p1_0 and 16742399); -- 16742399
+        local Character_102 = LocalPlayer_2.Character;
+        local HumanoidRootPart_67 = Character_102.HumanoidRootPart;
+        local Character_103 = LocalPlayer_2.Character;
+        local HumanoidRootPart_68 = Character_103.HumanoidRootPart;
+        local CFrame_34 = HumanoidRootPart_68.CFrame;
+        local Character_104 = LocalPlayer_2.Character;
+        local Humanoid_34 = Character_104.Humanoid;
+        local MoveDirection_34 = Humanoid_34.MoveDirection;
+        local var161 = MoveDirection_34 * 0.1;
+        local var162 = CFrame_34 + var161;
+        HumanoidRootPart_67.CFrame = var162;
+        local Stepped_34 = RunService.Stepped;
+        local Wait_67 = Stepped_34.Wait;
+        local Wait_68 = Stepped_34:Wait();
+        local var163 = (p1_0 and 16742399); -- 16742399
+        local Character_105 = LocalPlayer_2.Character;
+        local HumanoidRootPart_69 = Character_105.HumanoidRootPart;
+        local Character_106 = LocalPlayer_2.Character;
+        local HumanoidRootPart_70 = Character_106.HumanoidRootPart;
+        local CFrame_35 = HumanoidRootPart_70.CFrame;
+        local Character_107 = LocalPlayer_2.Character;
+        local Humanoid_35 = Character_107.Humanoid;
+        local MoveDirection_35 = Humanoid_35.MoveDirection;
+        local var164 = MoveDirection_35 * 0.1;
+        local var165 = CFrame_35 + var164;
+        HumanoidRootPart_69.CFrame = var165;
+        local Stepped_35 = RunService.Stepped;
+        local Wait_69 = Stepped_35.Wait;
+        local Wait_70 = Stepped_35:Wait();
+        local var166 = (p1_0 and 16742399); -- 16742399
+        local Character_108 = LocalPlayer_2.Character;
+        local HumanoidRootPart_71 = Character_108.HumanoidRootPart;
+        local Character_109 = LocalPlayer_2.Character;
+        local HumanoidRootPart_72 = Character_109.HumanoidRootPart;
+        local CFrame_36 = HumanoidRootPart_72.CFrame;
+        local Character_110 = LocalPlayer_2.Character;
+        local Humanoid_36 = Character_110.Humanoid;
+        local MoveDirection_36 = Humanoid_36.MoveDirection;
+        local var167 = MoveDirection_36 * 0.1;
+        local var168 = CFrame_36 + var167;
+        HumanoidRootPart_71.CFrame = var168;
+        local Stepped_36 = RunService.Stepped;
+        local Wait_71 = Stepped_36.Wait;
+        local Wait_72 = Stepped_36:Wait();
+        local var169 = (p1_0 and 16742399); -- 16742399
+        local Character_111 = LocalPlayer_2.Character;
+        local HumanoidRootPart_73 = Character_111.HumanoidRootPart;
+        local Character_112 = LocalPlayer_2.Character;
+        local HumanoidRootPart_74 = Character_112.HumanoidRootPart;
+        local CFrame_37 = HumanoidRootPart_74.CFrame;
+        local Character_113 = LocalPlayer_2.Character;
+        local Humanoid_37 = Character_113.Humanoid;
+        local MoveDirection_37 = Humanoid_37.MoveDirection;
+        local var170 = MoveDirection_37 * 0.1;
+        local var171 = CFrame_37 + var170;
+        HumanoidRootPart_73.CFrame = var171;
+        local Stepped_37 = RunService.Stepped;
+        local Wait_73 = Stepped_37.Wait;
+        local Wait_74 = Stepped_37:Wait();
+        local var172 = (p1_0 and 16742399); -- 16742399
+        local Character_114 = LocalPlayer_2.Character;
+        local HumanoidRootPart_75 = Character_114.HumanoidRootPart;
+        local Character_115 = LocalPlayer_2.Character;
+        local HumanoidRootPart_76 = Character_115.HumanoidRootPart;
+        local CFrame_38 = HumanoidRootPart_76.CFrame;
+        local Character_116 = LocalPlayer_2.Character;
+        local Humanoid_38 = Character_116.Humanoid;
+        local MoveDirection_38 = Humanoid_38.MoveDirection;
+        local var173 = MoveDirection_38 * 0.1;
+        local var174 = CFrame_38 + var173;
+        HumanoidRootPart_75.CFrame = var174;
+        local Stepped_38 = RunService.Stepped;
+        local Wait_75 = Stepped_38.Wait;
+        local Wait_76 = Stepped_38:Wait();
+        local var175 = (p1_0 and 16742399); -- 16742399
+        local Character_117 = LocalPlayer_2.Character;
+        local HumanoidRootPart_77 = Character_117.HumanoidRootPart;
+        local Character_118 = LocalPlayer_2.Character;
+        local HumanoidRootPart_78 = Character_118.HumanoidRootPart;
+        local CFrame_39 = HumanoidRootPart_78.CFrame;
+        local Character_119 = LocalPlayer_2.Character;
+        local Humanoid_39 = Character_119.Humanoid;
+        local MoveDirection_39 = Humanoid_39.MoveDirection;
+        local var176 = MoveDirection_39 * 0.1;
+        local var177 = CFrame_39 + var176;
+        HumanoidRootPart_77.CFrame = var177;
+        local Stepped_39 = RunService.Stepped;
+        local Wait_77 = Stepped_39.Wait;
+        local Wait_78 = Stepped_39:Wait();
+        local var178 = (p1_0 and 16742399); -- 16742399
+        local Character_120 = LocalPlayer_2.Character;
+        local HumanoidRootPart_79 = Character_120.HumanoidRootPart;
+        local Character_121 = LocalPlayer_2.Character;
+        local HumanoidRootPart_80 = Character_121.HumanoidRootPart;
+        local CFrame_40 = HumanoidRootPart_80.CFrame;
+        local Character_122 = LocalPlayer_2.Character;
+        local Humanoid_40 = Character_122.Humanoid;
+        local MoveDirection_40 = Humanoid_40.MoveDirection;
+        local var179 = MoveDirection_40 * 0.1;
+        local var180 = CFrame_40 + var179;
+        HumanoidRootPart_79.CFrame = var180;
+        local Stepped_40 = RunService.Stepped;
+        local Wait_79 = Stepped_40.Wait;
+        local Wait_80 = Stepped_40:Wait();
+        local var181 = (p1_0 and 16742399); -- 16742399
+        local Character_123 = LocalPlayer_2.Character;
+        local HumanoidRootPart_81 = Character_123.HumanoidRootPart;
+        local Character_124 = LocalPlayer_2.Character;
+        local HumanoidRootPart_82 = Character_124.HumanoidRootPart;
+        local CFrame_41 = HumanoidRootPart_82.CFrame;
+        local Character_125 = LocalPlayer_2.Character;
+        local Humanoid_41 = Character_125.Humanoid;
+        local MoveDirection_41 = Humanoid_41.MoveDirection;
+        local var182 = MoveDirection_41 * 0.1;
+        local var183 = CFrame_41 + var182;
+        HumanoidRootPart_81.CFrame = var183;
+        local Stepped_41 = RunService.Stepped;
+        local Wait_81 = Stepped_41.Wait;
+        local Wait_82 = Stepped_41:Wait();
+        local var184 = (p1_0 and 16742399); -- 16742399
+        local Character_126 = LocalPlayer_2.Character;
+        local HumanoidRootPart_83 = Character_126.HumanoidRootPart;
+        local Character_127 = LocalPlayer_2.Character;
+        local HumanoidRootPart_84 = Character_127.HumanoidRootPart;
+        local CFrame_42 = HumanoidRootPart_84.CFrame;
+        local Character_128 = LocalPlayer_2.Character;
+        local Humanoid_42 = Character_128.Humanoid;
+        local MoveDirection_42 = Humanoid_42.MoveDirection;
+        local var185 = MoveDirection_42 * 0.1;
+        local var186 = CFrame_42 + var185;
+        HumanoidRootPart_83.CFrame = var186;
+        local Stepped_42 = RunService.Stepped;
+        local Wait_83 = Stepped_42.Wait;
+        local Wait_84 = Stepped_42:Wait();
+        local var187 = (p1_0 and 16742399); -- 16742399
+        local Character_129 = LocalPlayer_2.Character;
+        local HumanoidRootPart_85 = Character_129.HumanoidRootPart;
+        local Character_130 = LocalPlayer_2.Character;
+        local HumanoidRootPart_86 = Character_130.HumanoidRootPart;
+        local CFrame_43 = HumanoidRootPart_86.CFrame;
+        local Character_131 = LocalPlayer_2.Character;
+        local Humanoid_43 = Character_131.Humanoid;
+        local MoveDirection_43 = Humanoid_43.MoveDirection;
+        local var188 = MoveDirection_43 * 0.1;
+        local var189 = CFrame_43 + var188;
+        HumanoidRootPart_85.CFrame = var189;
+        local Stepped_43 = RunService.Stepped;
+        local Wait_85 = Stepped_43.Wait;
+        local Wait_86 = Stepped_43:Wait();
+        local var190 = (p1_0 and 16742399); -- 16742399
+        local Character_132 = LocalPlayer_2.Character;
+        local HumanoidRootPart_87 = Character_132.HumanoidRootPart;
+        local Character_133 = LocalPlayer_2.Character;
+        local HumanoidRootPart_88 = Character_133.HumanoidRootPart;
+        local CFrame_44 = HumanoidRootPart_88.CFrame;
+        local Character_134 = LocalPlayer_2.Character;
+        local Humanoid_44 = Character_134.Humanoid;
+        local MoveDirection_44 = Humanoid_44.MoveDirection;
+        local var191 = MoveDirection_44 * 0.1;
+        local var192 = CFrame_44 + var191;
+        HumanoidRootPart_87.CFrame = var192;
+        local Stepped_44 = RunService.Stepped;
+        local Wait_87 = Stepped_44.Wait;
+        local Wait_88 = Stepped_44:Wait();
+        local var193 = (p1_0 and 16742399); -- 16742399
+        local Character_135 = LocalPlayer_2.Character;
+        local HumanoidRootPart_89 = Character_135.HumanoidRootPart;
+        local Character_136 = LocalPlayer_2.Character;
+        local HumanoidRootPart_90 = Character_136.HumanoidRootPart;
+        local CFrame_45 = HumanoidRootPart_90.CFrame;
+        local Character_137 = LocalPlayer_2.Character;
+        local Humanoid_45 = Character_137.Humanoid;
+        local MoveDirection_45 = Humanoid_45.MoveDirection;
+        local var194 = MoveDirection_45 * 0.1;
+        local var195 = CFrame_45 + var194;
+        HumanoidRootPart_89.CFrame = var195;
+        local Stepped_45 = RunService.Stepped;
+        local Wait_89 = Stepped_45.Wait;
+        local Wait_90 = Stepped_45:Wait();
+        local var196 = (p1_0 and 16742399); -- 16742399
+        local Character_138 = LocalPlayer_2.Character;
+        local HumanoidRootPart_91 = Character_138.HumanoidRootPart;
+        local Character_139 = LocalPlayer_2.Character;
+        local HumanoidRootPart_92 = Character_139.HumanoidRootPart;
+        local CFrame_46 = HumanoidRootPart_92.CFrame;
+        local Character_140 = LocalPlayer_2.Character;
+        local Humanoid_46 = Character_140.Humanoid;
+        local MoveDirection_46 = Humanoid_46.MoveDirection;
+        local var197 = MoveDirection_46 * 0.1;
+        local var198 = CFrame_46 + var197;
+        HumanoidRootPart_91.CFrame = var198;
+        local Stepped_46 = RunService.Stepped;
+        local Wait_91 = Stepped_46.Wait;
+        local Wait_92 = Stepped_46:Wait();
+        local var199 = (p1_0 and 16742399); -- 16742399
+        local Character_141 = LocalPlayer_2.Character;
+        local HumanoidRootPart_93 = Character_141.HumanoidRootPart;
+        local Character_142 = LocalPlayer_2.Character;
+        local HumanoidRootPart_94 = Character_142.HumanoidRootPart;
+        local CFrame_47 = HumanoidRootPart_94.CFrame;
+        local Character_143 = LocalPlayer_2.Character;
+        local Humanoid_47 = Character_143.Humanoid;
+        local MoveDirection_47 = Humanoid_47.MoveDirection;
+        local var200 = MoveDirection_47 * 0.1;
+        local var201 = CFrame_47 + var200;
+        HumanoidRootPart_93.CFrame = var201;
+        local Stepped_47 = RunService.Stepped;
+        local Wait_93 = Stepped_47.Wait;
+        local Wait_94 = Stepped_47:Wait();
+        local var202 = (p1_0 and 16742399); -- 16742399
+        local Character_144 = LocalPlayer_2.Character;
+        local HumanoidRootPart_95 = Character_144.HumanoidRootPart;
+        local Character_145 = LocalPlayer_2.Character;
+        local HumanoidRootPart_96 = Character_145.HumanoidRootPart;
+        local CFrame_48 = HumanoidRootPart_96.CFrame;
+        local Character_146 = LocalPlayer_2.Character;
+        local Humanoid_48 = Character_146.Humanoid;
+        local MoveDirection_48 = Humanoid_48.MoveDirection;
+        local var203 = MoveDirection_48 * 0.1;
+        local var204 = CFrame_48 + var203;
+        HumanoidRootPart_95.CFrame = var204;
+        local Stepped_48 = RunService.Stepped;
+        local Wait_95 = Stepped_48.Wait;
+        local Wait_96 = Stepped_48:Wait();
+        local var205 = (p1_0 and 16742399); -- 16742399
+        local Character_147 = LocalPlayer_2.Character;
+        local HumanoidRootPart_97 = Character_147.HumanoidRootPart;
+        local Character_148 = LocalPlayer_2.Character;
+        local HumanoidRootPart_98 = Character_148.HumanoidRootPart;
+        local CFrame_49 = HumanoidRootPart_98.CFrame;
+        local Character_149 = LocalPlayer_2.Character;
+        local Humanoid_49 = Character_149.Humanoid;
+        local MoveDirection_49 = Humanoid_49.MoveDirection;
+        local var206 = MoveDirection_49 * 0.1;
+        local var207 = CFrame_49 + var206;
+        HumanoidRootPart_97.CFrame = var207;
+        local Stepped_49 = RunService.Stepped;
+        local Wait_97 = Stepped_49.Wait;
+        local Wait_98 = Stepped_49:Wait();
+        local var208 = (p1_0 and 16742399); -- 16742399
+        local Character_150 = LocalPlayer_2.Character;
+        local HumanoidRootPart_99 = Character_150.HumanoidRootPart;
+        local Character_151 = LocalPlayer_2.Character;
+        local HumanoidRootPart_100 = Character_151.HumanoidRootPart;
+        local CFrame_50 = HumanoidRootPart_100.CFrame;
+        local Character_152 = LocalPlayer_2.Character;
+        local Humanoid_50 = Character_152.Humanoid;
+        local MoveDirection_50 = Humanoid_50.MoveDirection;
+        local var209 = MoveDirection_50 * 0.1;
+        local var210 = CFrame_50 + var209;
+        HumanoidRootPart_99.CFrame = var210;
+        local Stepped_50 = RunService.Stepped;
+        local Wait_99 = Stepped_50.Wait;
+        local Wait_100 = Stepped_50:Wait();
+        local var211 = (p1_0 and 16742399); -- 16742399
+        local Character_153 = LocalPlayer_2.Character;
+        local HumanoidRootPart_101 = Character_153.HumanoidRootPart;
+        local Character_154 = LocalPlayer_2.Character;
+        local HumanoidRootPart_102 = Character_154.HumanoidRootPart;
+        local CFrame_51 = HumanoidRootPart_102.CFrame;
+        local Character_155 = LocalPlayer_2.Character;
+        local Humanoid_51 = Character_155.Humanoid;
+        local MoveDirection_51 = Humanoid_51.MoveDirection;
+        local var212 = MoveDirection_51 * 0.1;
+        local var213 = CFrame_51 + var212;
+        HumanoidRootPart_101.CFrame = var213;
+        local Stepped_51 = RunService.Stepped;
+        local Wait_101 = Stepped_51.Wait;
+        local Wait_102 = Stepped_51:Wait();
+        local var214 = (p1_0 and 16742399); -- 16742399
+        local Character_156 = LocalPlayer_2.Character;
+        local HumanoidRootPart_103 = Character_156.HumanoidRootPart;
+        local Character_157 = LocalPlayer_2.Character;
+        local HumanoidRootPart_104 = Character_157.HumanoidRootPart;
+        local CFrame_52 = HumanoidRootPart_104.CFrame;
+        local Character_158 = LocalPlayer_2.Character;
+        local Humanoid_52 = Character_158.Humanoid;
+        local MoveDirection_52 = Humanoid_52.MoveDirection;
+        local var215 = MoveDirection_52 * 0.1;
+        local var216 = CFrame_52 + var215;
+        HumanoidRootPart_103.CFrame = var216;
+        local Stepped_52 = RunService.Stepped;
+        local Wait_103 = Stepped_52.Wait;
+        local Wait_104 = Stepped_52:Wait();
+        local var217 = (p1_0 and 16742399); -- 16742399
+        local Character_159 = LocalPlayer_2.Character;
+        local HumanoidRootPart_105 = Character_159.HumanoidRootPart;
+        local Character_160 = LocalPlayer_2.Character;
+        local HumanoidRootPart_106 = Character_160.HumanoidRootPart;
+        local CFrame_53 = HumanoidRootPart_106.CFrame;
+        local Character_161 = LocalPlayer_2.Character;
+        local Humanoid_53 = Character_161.Humanoid;
+        local MoveDirection_53 = Humanoid_53.MoveDirection;
+        local var218 = MoveDirection_53 * 0.1;
+        local var219 = CFrame_53 + var218;
+        HumanoidRootPart_105.CFrame = var219;
+        local Stepped_53 = RunService.Stepped;
+        local Wait_105 = Stepped_53.Wait;
+        local Wait_106 = Stepped_53:Wait();
+        local var220 = (p1_0 and 16742399); -- 16742399
+        local Character_162 = LocalPlayer_2.Character;
+        local HumanoidRootPart_107 = Character_162.HumanoidRootPart;
+        local Character_163 = LocalPlayer_2.Character;
+        local HumanoidRootPart_108 = Character_163.HumanoidRootPart;
+        local CFrame_54 = HumanoidRootPart_108.CFrame;
+        local Character_164 = LocalPlayer_2.Character;
+        local Humanoid_54 = Character_164.Humanoid;
+        local MoveDirection_54 = Humanoid_54.MoveDirection;
+        local var221 = MoveDirection_54 * 0.1;
+        local var222 = CFrame_54 + var221;
+        HumanoidRootPart_107.CFrame = var222;
+        local Stepped_54 = RunService.Stepped;
+        local Wait_107 = Stepped_54.Wait;
+        local Wait_108 = Stepped_54:Wait();
+        local var223 = (p1_0 and 16742399); -- 16742399
+        local Character_165 = LocalPlayer_2.Character;
+        local HumanoidRootPart_109 = Character_165.HumanoidRootPart;
+        local Character_166 = LocalPlayer_2.Character;
+        local HumanoidRootPart_110 = Character_166.HumanoidRootPart;
+        local CFrame_55 = HumanoidRootPart_110.CFrame;
+        local Character_167 = LocalPlayer_2.Character;
+        local Humanoid_55 = Character_167.Humanoid;
+        local MoveDirection_55 = Humanoid_55.MoveDirection;
+        local var224 = MoveDirection_55 * 0.1;
+        local var225 = CFrame_55 + var224;
+        HumanoidRootPart_109.CFrame = var225;
+        local Stepped_55 = RunService.Stepped;
+        local Wait_109 = Stepped_55.Wait;
+        local Wait_110 = Stepped_55:Wait();
+        local var226 = (p1_0 and 16742399); -- 16742399
+        local Character_168 = LocalPlayer_2.Character;
+        local HumanoidRootPart_111 = Character_168.HumanoidRootPart;
+        local Character_169 = LocalPlayer_2.Character;
+        local HumanoidRootPart_112 = Character_169.HumanoidRootPart;
+        local CFrame_56 = HumanoidRootPart_112.CFrame;
+        local Character_170 = LocalPlayer_2.Character;
+        local Humanoid_56 = Character_170.Humanoid;
+        local MoveDirection_56 = Humanoid_56.MoveDirection;
+        local var227 = MoveDirection_56 * 0.1;
+        local var228 = CFrame_56 + var227;
+        HumanoidRootPart_111.CFrame = var228;
+        local Stepped_56 = RunService.Stepped;
+        local Wait_111 = Stepped_56.Wait;
+        local Wait_112 = Stepped_56:Wait();
+        local var229 = (p1_0 and 16742399); -- 16742399
+        local Character_171 = LocalPlayer_2.Character;
+        local HumanoidRootPart_113 = Character_171.HumanoidRootPart;
+        local Character_172 = LocalPlayer_2.Character;
+        local HumanoidRootPart_114 = Character_172.HumanoidRootPart;
+        local CFrame_57 = HumanoidRootPart_114.CFrame;
+        local Character_173 = LocalPlayer_2.Character;
+        local Humanoid_57 = Character_173.Humanoid;
+        local MoveDirection_57 = Humanoid_57.MoveDirection;
+        local var230 = MoveDirection_57 * 0.1;
+        local var231 = CFrame_57 + var230;
+        HumanoidRootPart_113.CFrame = var231;
+        local Stepped_57 = RunService.Stepped;
+        local Wait_113 = Stepped_57.Wait;
+        local Wait_114 = Stepped_57:Wait();
+        local var232 = (p1_0 and 16742399); -- 16742399
+        local Character_174 = LocalPlayer_2.Character;
+        local HumanoidRootPart_115 = Character_174.HumanoidRootPart;
+        local Character_175 = LocalPlayer_2.Character;
+        local HumanoidRootPart_116 = Character_175.HumanoidRootPart;
+        local CFrame_58 = HumanoidRootPart_116.CFrame;
+        local Character_176 = LocalPlayer_2.Character;
+        local Humanoid_58 = Character_176.Humanoid;
+        local MoveDirection_58 = Humanoid_58.MoveDirection;
+        local var233 = MoveDirection_58 * 0.1;
+        local var234 = CFrame_58 + var233;
+        HumanoidRootPart_115.CFrame = var234;
+        local Stepped_58 = RunService.Stepped;
+        local Wait_115 = Stepped_58.Wait;
+        local Wait_116 = Stepped_58:Wait();
+        local var235 = (p1_0 and 16742399); -- 16742399
+        local Character_177 = LocalPlayer_2.Character;
+        local HumanoidRootPart_117 = Character_177.HumanoidRootPart;
+        local Character_178 = LocalPlayer_2.Character;
+        local HumanoidRootPart_118 = Character_178.HumanoidRootPart;
+        local CFrame_59 = HumanoidRootPart_118.CFrame;
+        local Character_179 = LocalPlayer_2.Character;
+        local Humanoid_59 = Character_179.Humanoid;
+        local MoveDirection_59 = Humanoid_59.MoveDirection;
+        local var236 = MoveDirection_59 * 0.1;
+        local var237 = CFrame_59 + var236;
+        HumanoidRootPart_117.CFrame = var237;
+        local Stepped_59 = RunService.Stepped;
+        local Wait_117 = Stepped_59.Wait;
+        local Wait_118 = Stepped_59:Wait();
+        local var238 = (p1_0 and 16742399); -- 16742399
+        local Character_180 = LocalPlayer_2.Character;
+        local HumanoidRootPart_119 = Character_180.HumanoidRootPart;
+        local Character_181 = LocalPlayer_2.Character;
+        local HumanoidRootPart_120 = Character_181.HumanoidRootPart;
+        local CFrame_60 = HumanoidRootPart_120.CFrame;
+        local Character_182 = LocalPlayer_2.Character;
+        local Humanoid_60 = Character_182.Humanoid;
+        local MoveDirection_60 = Humanoid_60.MoveDirection;
+        local var239 = MoveDirection_60 * 0.1;
+        local var240 = CFrame_60 + var239;
+        HumanoidRootPart_119.CFrame = var240;
+        local Stepped_60 = RunService.Stepped;
+        local Wait_119 = Stepped_60.Wait;
+        local Wait_120 = Stepped_60:Wait();
+        local var241 = (p1_0 and 16742399);
+    end)
+    game:GetService("Players")
+    local RunService_2 = game:GetService("RunService")
+    local _ = MainFeatures_2:NewToggle("Auto Guard (TOGGLE)", "Automatically guards nearby players with a basketball", function(p1_0, p2_0, p3_0, p4_0, p5_0, p6_0)
+        if not p1_0 then -- didnt run, expr id 4, has an else.
+        else
+            local var242 = (p1_0 and 15508442); -- 15508442
+        end
+        local Character_183 = LocalPlayer.Character;
+        local Not_Character_183 = not Character_183;
+        -- false
+        local UpperTorso = Character_183:FindFirstChild("UpperTorso");
+        local Not_UpperTorso = not UpperTorso;
+        -- false
+        local var243 = (Not_UpperTorso and 10482496);
+        local Players_5 = Players:GetPlayers();
+        for i, v in pairs(Players_5) do
+            local var243 = (i and 14744002); -- 14744002
+            local var244 = (var243 or 12983693);
+            local var245 = (v ~= LocalPlayer);
+            -- true, eq id 4
+            local var246 = (var245 and 16346611); -- 16346611
+            local Character_184 = v.Character;
+            if Character_184 then -- ran, expr id 5, has an else.
+                local Character_185 = v.Character;
+                local FindFirstChild = Character_185.FindFirstChild;
+            end
+            local UpperTorso_2 = Character_185:FindFirstChild("UpperTorso");
+            local var247 = (UpperTorso_2 and 13541790); -- 13541790
+            local var248 = (var247 or 13731747);
+            local Character_186 = v.Character;
+            local FindFirstChild_2 = Character_186.FindFirstChild;
+            local Basketball = Character_186:FindFirstChild("Basketball");
+            if Basketball then -- ran, expr id 6, has an else.
+                local Character_187 = v.Character;
+            end
+            local UpperTorso_3 = Character_187.UpperTorso;
+            local Position = UpperTorso_3.Position;
+            local UpperTorso_4 = Character_183.UpperTorso;
+            local Position_2 = UpperTorso.Position;
+            local var249 = Position - Position_2;
+            local Magnitude = var249.Magnitude;
+            local var250 = (Magnitude < math.huge); -- nil
+            local var251 = (var250 and 12689796);
+        end
+        local Waited_For = task.wait(0.1);
+        local var252 = (p1_0 and 15508442); -- 15508442
+        local Character_188 = LocalPlayer.Character;
+        local Not_Character_188 = not Character_188;
+        -- false
+        local UpperTorso_5 = Character_188:FindFirstChild("UpperTorso");
+        local Not_UpperTorso_5 = not UpperTorso_5;
+        -- false
+        local var253 = (Not_UpperTorso_5 and 10482496);
+        local Players_6 = Players:GetPlayers();
+        for i_2, v_2 in pairs(Players_6) do
+            local var253 = (i_2 and 14744002); -- 14744002
+            local var254 = (var253 or 12983693);
+            local var255 = (v_2 ~= LocalPlayer);
+            -- true, eq id 5
+            local var256 = (var255 and 16346611); -- 16346611
+            local Character_189 = v_2.Character;
+            if Character_189 then -- ran, expr id 7, has an else.
+                local Character_190 = v_2.Character;
+                local FindFirstChild_3 = Character_190.FindFirstChild;
+            end
+            local UpperTorso_6 = Character_190:FindFirstChild("UpperTorso");
+            local var257 = (UpperTorso_6 and 13541790); -- 13541790
+            local var258 = (var257 or 13731747);
+            local Character_191 = v_2.Character;
+            local FindFirstChild_4 = Character_191.FindFirstChild;
+            local Basketball_2 = Character_191:FindFirstChild("Basketball");
+            if Basketball_2 then -- ran, expr id 8, has an else.
+                local Character_192 = v_2.Character;
+            end
+            local UpperTorso_7 = Character_192.UpperTorso;
+            local Position_3 = UpperTorso_7.Position;
+            local UpperTorso_8 = Character_188.UpperTorso;
+            local Position_4 = UpperTorso_5.Position;
+            local var259 = Position_3 - Position_4;
+            local Magnitude_2 = var259.Magnitude;
+            local var260 = (Magnitude_2 < math.huge); -- nil
+            local var261 = (var260 and 12689796);
+        end
+        local Waited_For_2 = task.wait(0.1);
+        local var262 = (p1_0 and 15508442); -- 15508442
+        local Character_193 = LocalPlayer.Character;
+        local Not_Character_193 = not Character_193;
+        -- false
+        local UpperTorso_9 = Character_193:FindFirstChild("UpperTorso");
+        local Not_UpperTorso_9 = not UpperTorso_9;
+        -- false
+        local var263 = (Not_UpperTorso_9 and 10482496);
+        local Players_7 = Players:GetPlayers();
+        for i_3, v_3 in pairs(Players_7) do
+            local var263 = (i_3 and 14744002); -- 14744002
+            local var264 = (var263 or 12983693);
+            local var265 = (v_3 ~= LocalPlayer);
+            -- true, eq id 6
+            local var266 = (var265 and 16346611); -- 16346611
+            local Character_194 = v_3.Character;
+            if Character_194 then -- ran, expr id 9, has an else.
+                local Character_195 = v_3.Character;
+                local FindFirstChild_5 = Character_195.FindFirstChild;
+            end
+            local UpperTorso_10 = Character_195:FindFirstChild("UpperTorso");
+            local var267 = (UpperTorso_10 and 13541790); -- 13541790
+            local var268 = (var267 or 13731747);
+            local Character_196 = v_3.Character;
+            local FindFirstChild_6 = Character_196.FindFirstChild;
+            local Basketball_3 = Character_196:FindFirstChild("Basketball");
+            if Basketball_3 then -- ran, expr id 10, has an else.
+                local Character_197 = v_3.Character;
+            end
+            local UpperTorso_11 = Character_197.UpperTorso;
+            local Position_5 = UpperTorso_11.Position;
+            local UpperTorso_12 = Character_193.UpperTorso;
+            local Position_6 = UpperTorso_9.Position;
+            local var269 = Position_5 - Position_6;
+            local Magnitude_3 = var269.Magnitude;
+            local var270 = (Magnitude_3 < math.huge); -- nil
+            local var271 = (var270 and 12689796);
+        end
+        local Waited_For_3 = task.wait(0.1);
+        local var272 = (p1_0 and 15508442); -- 15508442
+        local Character_198 = LocalPlayer.Character;
+        local Not_Character_198 = not Character_198;
+        -- false
+        local UpperTorso_13 = Character_198:FindFirstChild("UpperTorso");
+        local Not_UpperTorso_13 = not UpperTorso_13;
+        -- false
+        local var273 = (Not_UpperTorso_13 and 10482496);
+        local Players_8 = Players:GetPlayers();
+        for i_4, v_4 in pairs(Players_8) do
+            local var273 = (i_4 and 14744002); -- 14744002
+            local var274 = (var273 or 12983693);
+            local var275 = (v_4 ~= LocalPlayer);
+            -- true, eq id 7
+            local var276 = (var275 and 16346611); -- 16346611
+            local Character_199 = v_4.Character;
+            if Character_199 then -- ran, expr id 11, has an else.
+                local Character_200 = v_4.Character;
+                local FindFirstChild_7 = Character_200.FindFirstChild;
+            end
+            local UpperTorso_14 = Character_200:FindFirstChild("UpperTorso");
+            local var277 = (UpperTorso_14 and 13541790); -- 13541790
+            local var278 = (var277 or 13731747);
+            local Character_201 = v_4.Character;
+            local FindFirstChild_8 = Character_201.FindFirstChild;
+            local Basketball_4 = Character_201:FindFirstChild("Basketball");
+            if Basketball_4 then -- ran, expr id 12, has an else.
+                local Character_202 = v_4.Character;
+            end
+            local UpperTorso_15 = Character_202.UpperTorso;
+            local Position_7 = UpperTorso_15.Position;
+            local UpperTorso_16 = Character_198.UpperTorso;
+            local Position_8 = UpperTorso_13.Position;
+            local var279 = Position_7 - Position_8;
+            local Magnitude_4 = var279.Magnitude;
+            local var280 = (Magnitude_4 < math.huge); -- nil
+            local var281 = (var280 and 12689796);
+        end
+        local Waited_For_4 = task.wait(0.1);
+        local var282 = (p1_0 and 15508442); -- 15508442
+        local Character_203 = LocalPlayer.Character;
+        local Not_Character_203 = not Character_203;
+        -- false
+        local UpperTorso_17 = Character_203:FindFirstChild("UpperTorso");
+        local Not_UpperTorso_17 = not UpperTorso_17;
+        -- false
+        local var283 = (Not_UpperTorso_17 and 10482496);
+        local Players_9 = Players:GetPlayers();
+        for i_5, v_5 in pairs(Players_9) do
+            local var283 = (i_5 and 14744002); -- 14744002
+            local var284 = (var283 or 12983693);
+            local var285 = (v_5 ~= LocalPlayer);
+            -- true, eq id 8
+            local var286 = (var285 and 16346611); -- 16346611
+            local Character_204 = v_5.Character;
+            if Character_204 then -- ran, expr id 13, has an else.
+                local Character_205 = v_5.Character;
+                local FindFirstChild_9 = Character_205.FindFirstChild;
+            end
+            local UpperTorso_18 = Character_205:FindFirstChild("UpperTorso");
+            local var287 = (UpperTorso_18 and 13541790); -- 13541790
+            local var288 = (var287 or 13731747);
+            local Character_206 = v_5.Character;
+            local FindFirstChild_10 = Character_206.FindFirstChild;
+            local Basketball_5 = Character_206:FindFirstChild("Basketball");
+            if Basketball_5 then -- ran, expr id 14, has an else.
+                local Character_207 = v_5.Character;
+            end
+            local UpperTorso_19 = Character_207.UpperTorso;
+            local Position_9 = UpperTorso_19.Position;
+            local UpperTorso_20 = Character_203.UpperTorso;
+            local Position_10 = UpperTorso_17.Position;
+            local var289 = Position_9 - Position_10;
+            local Magnitude_5 = var289.Magnitude;
+            local var290 = (Magnitude_5 < math.huge); -- nil
+            local var291 = (var290 and 12689796);
+        end
+        local Waited_For_5 = task.wait(0.1);
+        local var292 = (p1_0 and 15508442); -- 15508442
+        local Character_208 = LocalPlayer.Character;
+        local Not_Character_208 = not Character_208;
+        -- false
+        local UpperTorso_21 = Character_208:FindFirstChild("UpperTorso");
+        local Not_UpperTorso_21 = not UpperTorso_21;
+        -- false
+        local var293 = (Not_UpperTorso_21 and 10482496);
+        local Players_10 = Players:GetPlayers();
+        for i_6, v_6 in pairs(Players_10) do
+            local var293 = (i_6 and 14744002); -- 14744002
+            local var294 = (var293 or 12983693);
+            local var295 = (v_6 ~= LocalPlayer);
+            -- true, eq id 9
+            local var296 = (var295 and 16346611); -- 16346611
+            local Character_209 = v_6.Character;
+            if Character_209 then -- ran, expr id 15, has an else.
+                local Character_210 = v_6.Character;
+                local FindFirstChild_11 = Character_210.FindFirstChild;
+            end
+            local UpperTorso_22 = Character_210:FindFirstChild("UpperTorso");
+            local var297 = (UpperTorso_22 and 13541790); -- 13541790
+            local var298 = (var297 or 13731747);
+            local Character_211 = v_6.Character;
+            local FindFirstChild_12 = Character_211.FindFirstChild;
+            local Basketball_6 = Character_211:FindFirstChild("Basketball");
+            if Basketball_6 then -- ran, expr id 16, has an else.
+                local Character_212 = v_6.Character;
+            end
+            local UpperTorso_23 = Character_212.UpperTorso;
+            local Position_11 = UpperTorso_23.Position;
+            local UpperTorso_24 = Character_208.UpperTorso;
+            local Position_12 = UpperTorso_21.Position;
+            local var299 = Position_11 - Position_12;
+            local Magnitude_6 = var299.Magnitude;
+            local var300 = (Magnitude_6 < math.huge); -- nil
+            local var301 = (var300 and 12689796);
+        end
+        local Waited_For_6 = task.wait(0.1);
+        local var302 = (p1_0 and 15508442); -- 15508442
+        local Character_213 = LocalPlayer.Character;
+        local Not_Character_213 = not Character_213;
+        -- false
+        local UpperTorso_25 = Character_213:FindFirstChild("UpperTorso");
+        local Not_UpperTorso_25 = not UpperTorso_25;
+        -- false
+        local var303 = (Not_UpperTorso_25 and 10482496);
+        local Players_11 = Players:GetPlayers();
+        for i_7, v_7 in pairs(Players_11) do
+            local var303 = (i_7 and 14744002); -- 14744002
+            local var304 = (var303 or 12983693);
+            local var305 = (v_7 ~= LocalPlayer);
+            -- true, eq id 10
+            local var306 = (var305 and 16346611); -- 16346611
+            local Character_214 = v_7.Character;
+            if Character_214 then -- ran, expr id 17, has an else.
+                local Character_215 = v_7.Character;
+                local FindFirstChild_13 = Character_215.FindFirstChild;
+            end
+            local UpperTorso_26 = Character_215:FindFirstChild("UpperTorso");
+            local var307 = (UpperTorso_26 and 13541790); -- 13541790
+            local var308 = (var307 or 13731747);
+            local Character_216 = v_7.Character;
+            local FindFirstChild_14 = Character_216.FindFirstChild;
+            local Basketball_7 = Character_216:FindFirstChild("Basketball");
+            if Basketball_7 then -- ran, expr id 18, has an else.
+                local Character_217 = v_7.Character;
+            end
+            local UpperTorso_27 = Character_217.UpperTorso;
+            local Position_13 = UpperTorso_27.Position;
+            local UpperTorso_28 = Character_213.UpperTorso;
+            local Position_14 = UpperTorso_25.Position;
+            local var309 = Position_13 - Position_14;
+            local Magnitude_7 = var309.Magnitude;
+            local var310 = (Magnitude_7 < math.huge); -- nil
+            local var311 = (var310 and 12689796);
+        end
+        local Waited_For_7 = task.wait(0.1);
+        local var312 = (p1_0 and 15508442); -- 15508442
+        local Character_218 = LocalPlayer.Character;
+        local Not_Character_218 = not Character_218;
+        -- false
+        local UpperTorso_29 = Character_218:FindFirstChild("UpperTorso");
+        local Not_UpperTorso_29 = not UpperTorso_29;
+        -- false
+        local var313 = (Not_UpperTorso_29 and 10482496);
+        local Players_12 = Players:GetPlayers();
+        for i_8, v_8 in pairs(Players_12) do
+            local var313 = (i_8 and 14744002); -- 14744002
+            local var314 = (var313 or 12983693);
+            local var315 = (v_8 ~= LocalPlayer);
+            -- true, eq id 11
+            local var316 = (var315 and 16346611); -- 16346611
+            local Character_219 = v_8.Character;
+            if Character_219 then -- ran, expr id 19, has an else.
+                local Character_220 = v_8.Character;
+                local FindFirstChild_15 = Character_220.FindFirstChild;
+            end
+            local UpperTorso_30 = Character_220:FindFirstChild("UpperTorso");
+            local var317 = (UpperTorso_30 and 13541790); -- 13541790
+            local var318 = (var317 or 13731747);
+            local Character_221 = v_8.Character;
+            local FindFirstChild_16 = Character_221.FindFirstChild;
+            local Basketball_8 = Character_221:FindFirstChild("Basketball");
+            if Basketball_8 then -- ran, expr id 20, has an else.
+                local Character_222 = v_8.Character;
+            end
+            local UpperTorso_31 = Character_222.UpperTorso;
+            local Position_15 = UpperTorso_31.Position;
+            local UpperTorso_32 = Character_218.UpperTorso;
+            local Position_16 = UpperTorso_29.Position;
+            local var319 = Position_15 - Position_16;
+            local Magnitude_8 = var319.Magnitude;
+            local var320 = (Magnitude_8 < math.huge); -- nil
+            local var321 = (var320 and 12689796);
+        end
+        local Waited_For_8 = task.wait(0.1);
+        local var322 = (p1_0 and 15508442); -- 15508442
+        local Character_223 = LocalPlayer.Character;
+        local Not_Character_223 = not Character_223;
+        -- false
+        local UpperTorso_33 = Character_223:FindFirstChild("UpperTorso");
+        local Not_UpperTorso_33 = not UpperTorso_33;
+        -- false
+        local var323 = (Not_UpperTorso_33 and 10482496);
+        local Players_13 = Players:GetPlayers();
+        for i_9, v_9 in pairs(Players_13) do
+            local var323 = (i_9 and 14744002); -- 14744002
+            local var324 = (var323 or 12983693);
+            local var325 = (v_9 ~= LocalPlayer);
+            -- true, eq id 12
+            local var326 = (var325 and 16346611); -- 16346611
+            local Character_224 = v_9.Character;
+            if Character_224 then -- ran, expr id 21, has an else.
+                local Character_225 = v_9.Character;
+                local FindFirstChild_17 = Character_225.FindFirstChild;
+            end
+            local UpperTorso_34 = Character_225:FindFirstChild("UpperTorso");
+            local var327 = (UpperTorso_34 and 13541790); -- 13541790
+            local var328 = (var327 or 13731747);
+            local Character_226 = v_9.Character;
+            local FindFirstChild_18 = Character_226.FindFirstChild;
+            local Basketball_9 = Character_226:FindFirstChild("Basketball");
+            if Basketball_9 then -- ran, expr id 22, has an else.
+                local Character_227 = v_9.Character;
+            end
+            local UpperTorso_35 = Character_227.UpperTorso;
+            local Position_17 = UpperTorso_35.Position;
+            local UpperTorso_36 = Character_223.UpperTorso;
+            local Position_18 = UpperTorso_33.Position;
+            local var329 = Position_17 - Position_18;
+            local Magnitude_9 = var329.Magnitude;
+            local var330 = (Magnitude_9 < math.huge); -- nil
+            local var331 = (var330 and 12689796);
+        end
+        local Waited_For_9 = task.wait(0.1);
+        local var332 = (p1_0 and 15508442); -- 15508442
+        local Character_228 = LocalPlayer.Character;
+        local Not_Character_228 = not Character_228;
+        -- false
+        local UpperTorso_37 = Character_228:FindFirstChild("UpperTorso");
+        local Not_UpperTorso_37 = not UpperTorso_37;
+        -- false
+        local var333 = (Not_UpperTorso_37 and 10482496);
+        local Players_14 = Players:GetPlayers();
+        for i_10, v_10 in pairs(Players_14) do
+            local var333 = (i_10 and 14744002); -- 14744002
+            local var334 = (var333 or 12983693);
+            local var335 = (v_10 ~= LocalPlayer);
+            -- true, eq id 13
+            local var336 = (var335 and 16346611); -- 16346611
+            local Character_229 = v_10.Character;
+            if Character_229 then -- ran, expr id 23, has an else.
+                local Character_230 = v_10.Character;
+                local FindFirstChild_19 = Character_230.FindFirstChild;
+            end
+            local UpperTorso_38 = Character_230:FindFirstChild("UpperTorso");
+            local var337 = (UpperTorso_38 and 13541790); -- 13541790
+            local var338 = (var337 or 13731747);
+            local Character_231 = v_10.Character;
+            local FindFirstChild_20 = Character_231.FindFirstChild;
+            local Basketball_10 = Character_231:FindFirstChild("Basketball");
+            if Basketball_10 then -- ran, expr id 24, has an else.
+                local Character_232 = v_10.Character;
+            end
+            local UpperTorso_39 = Character_232.UpperTorso;
+            local Position_19 = UpperTorso_39.Position;
+            local UpperTorso_40 = Character_228.UpperTorso;
+            local Position_20 = UpperTorso_37.Position;
+            local var339 = Position_19 - Position_20;
+            local Magnitude_10 = var339.Magnitude;
+            local var340 = (Magnitude_10 < math.huge); -- nil
+            local var341 = (var340 and 12689796);
+        end
+        local Waited_For_10 = task.wait(0.1);
+        local var342 = (p1_0 and 15508442); -- 15508442
+        local Character_233 = LocalPlayer.Character;
+        local Not_Character_233 = not Character_233;
+        -- false
+        local UpperTorso_41 = Character_233:FindFirstChild("UpperTorso");
+        local Not_UpperTorso_41 = not UpperTorso_41;
+        -- false
+        local var343 = (Not_UpperTorso_41 and 10482496);
+        local Players_15 = Players:GetPlayers();
+        for i_11, v_11 in pairs(Players_15) do
+            local var343 = (i_11 and 14744002); -- 14744002
+            local var344 = (var343 or 12983693);
+            local var345 = (v_11 ~= LocalPlayer);
+            -- true, eq id 14
+            local var346 = (var345 and 16346611); -- 16346611
+            local Character_234 = v_11.Character;
+            if Character_234 then -- ran, expr id 25, has an else.
+                local Character_235 = v_11.Character;
+                local FindFirstChild_21 = Character_235.FindFirstChild;
+            end
+            local UpperTorso_42 = Character_235:FindFirstChild("UpperTorso");
+            local var347 = (UpperTorso_42 and 13541790); -- 13541790
+            local var348 = (var347 or 13731747);
+            local Character_236 = v_11.Character;
+            local FindFirstChild_22 = Character_236.FindFirstChild;
+            local Basketball_11 = Character_236:FindFirstChild("Basketball");
+            if Basketball_11 then -- ran, expr id 26, has an else.
+                local Character_237 = v_11.Character;
+            end
+            local UpperTorso_43 = Character_237.UpperTorso;
+            local Position_21 = UpperTorso_43.Position;
+            local UpperTorso_44 = Character_233.UpperTorso;
+            local Position_22 = UpperTorso_41.Position;
+            local var349 = Position_21 - Position_22;
+            local Magnitude_11 = var349.Magnitude;
+            local var350 = (Magnitude_11 < math.huge); -- nil
+            local var351 = (var350 and 12689796);
+        end
+        local Waited_For_11 = task.wait(0.1);
+        local var352 = (p1_0 and 15508442); -- 15508442
+        local Character_238 = LocalPlayer.Character;
+        local Not_Character_238 = not Character_238;
+        -- false
+        local UpperTorso_45 = Character_238:FindFirstChild("UpperTorso");
+        local Not_UpperTorso_45 = not UpperTorso_45;
+        -- false
+        local var353 = (Not_UpperTorso_45 and 10482496);
+        local Players_16 = Players:GetPlayers();
+        for i_12, v_12 in pairs(Players_16) do
+            local var353 = (i_12 and 14744002); -- 14744002
+            local var354 = (var353 or 12983693);
+            local var355 = (v_12 ~= LocalPlayer);
+            -- true, eq id 15
+            local var356 = (var355 and 16346611); -- 16346611
+            local Character_239 = v_12.Character;
+            if Character_239 then -- ran, expr id 27, has an else.
+                local Character_240 = v_12.Character;
+                local FindFirstChild_23 = Character_240.FindFirstChild;
+            end
+            local UpperTorso_46 = Character_240:FindFirstChild("UpperTorso");
+            local var357 = (UpperTorso_46 and 13541790); -- 13541790
+            local var358 = (var357 or 13731747);
+            local Character_241 = v_12.Character;
+            local FindFirstChild_24 = Character_241.FindFirstChild;
+            local Basketball_12 = Character_241:FindFirstChild("Basketball");
+            if Basketball_12 then -- ran, expr id 28, has an else.
+                local Character_242 = v_12.Character;
+            end
+            local UpperTorso_47 = Character_242.UpperTorso;
+            local Position_23 = UpperTorso_47.Position;
+            local UpperTorso_48 = Character_238.UpperTorso;
+            local Position_24 = UpperTorso_45.Position;
+            local var359 = Position_23 - Position_24;
+            local Magnitude_12 = var359.Magnitude;
+            local var360 = (Magnitude_12 < math.huge); -- nil
+            local var361 = (var360 and 12689796);
+        end
+        local Waited_For_12 = task.wait(0.1);
+        local var362 = (p1_0 and 15508442); -- 15508442
+        local Character_243 = LocalPlayer.Character;
+        local Not_Character_243 = not Character_243;
+        -- false
+        local UpperTorso_49 = Character_243:FindFirstChild("UpperTorso");
+        local Not_UpperTorso_49 = not UpperTorso_49;
+        -- false
+        local var363 = (Not_UpperTorso_49 and 10482496);
+        local Players_17 = Players:GetPlayers();
+        for i_13, v_13 in pairs(Players_17) do
+            local var363 = (i_13 and 14744002); -- 14744002
+            local var364 = (var363 or 12983693);
+            local var365 = (v_13 ~= LocalPlayer);
+            -- true, eq id 16
+            local var366 = (var365 and 16346611); -- 16346611
+            local Character_244 = v_13.Character;
+        end
+    end)
+    local _ = MainFeatures_2:NewToggle("Noclip", "Go Through Things, Use Infinite Jump With it", function(p1_0, p2_0)
+        Env.noclip = function(p1_0)
+            local RunService_4 = game:GetService("RunService");
+            local Connection_6;
+            Connection_6 = RunService_2.Stepped:connect(function(Time_3) -- args: Time_4, DeltaTime_2;
+                local var406 = wait(0.21);
+            end);
+        end;
+        Env.clip = function(p1_0, p2_0, p3_0, p4_0, p5_0)
+            local var405 = (Connection_6 and 15131598); -- 15131598
+            Connection_6:Disconnect()
+        end;
+        local RunService_3 = game:GetService("RunService");
+        local Connection_5;
+        Connection_5 = RunService_2.Stepped:Connect(function(Time) -- args: Time_2, DeltaTime;
+            local var405 = wait(0.21);
+        end);
+    end)
+    MainFeatures_2:NewLabel("Gamepass Dances (NEW DANCES)")
+    MainFeatures_2:NewButton("Ice Veins", "Free Dance", function(p1_0, p2_0)
+        Env.Player = "LocalPlayer"
+        Env.AnimationId = "14853484844"
+        local Animation = Instance.new("Animation")
+        Animation.AnimationId = "rbxassetid://14853484844"
+        local Humanoid_61 = LocalPlayer.Character.Humanoid
+        local LoadAnimation_2 = Humanoid_61:LoadAnimation(Animation)
+        LoadAnimation_2:Play()
+        LoadAnimation_2:AdjustSpeed(1.1)
+    end)
+    MainFeatures_2:NewButton("PushUps", "Free Dance", function(p1_0, p2_0)
+        local Animation_2 = Instance.new("Animation")
+        Animation_2.AnimationId = "rbxassetid://14853482287"
+        local Humanoid_62 = LocalPlayer.Character.Humanoid
+        local LoadAnimation_4 = Humanoid_62:LoadAnimation(Animation_2)
+        LoadAnimation_4:Play()
+        LoadAnimation_4:AdjustSpeed(1.1)
+    end)
+    MainFeatures_2:NewButton("Rage", "Free Dance", function()
+        local Animation_3 = Instance.new("Animation")
+        Animation_3.AnimationId = "rbxassetid://18253534037"
+        local Humanoid_63 = LocalPlayer.Character.Humanoid
+        local LoadAnimation_6 = Humanoid_63:LoadAnimation(Animation_3)
+        LoadAnimation_6:Play()
+        LoadAnimation_6:AdjustSpeed(1.1)
+    end)
+    local _ = MainFeatures_2:NewToggle("Twist", "Free Dance", function(p1_0)
+        local var376 = (p1_0 and 12463485); -- 12463485
+        local Animation_4 = Instance.new("Animation");
+        Animation_4.AnimationId = "rbxassetid://13379961174";
+        local Players_21 = game.Players;
+        local LocalPlayer_8 = Players.LocalPlayer;
+        local Character_248 = LocalPlayer.Character;
+        local Humanoid_64 = Character_248.Humanoid;
+        local LoadAnimation_7 = Humanoid_64.LoadAnimation;
+        local LoadAnimation_8 = Humanoid_64:LoadAnimation(Animation_4);
+        local Play_7 = LoadAnimation_8.Play;
+        local Play_8 = LoadAnimation_8:Play();
+        local AdjustSpeed_7 = LoadAnimation_8.AdjustSpeed;
+        local AdjustSpeed_8 = LoadAnimation_8:AdjustSpeed(1.1);
+    end)
+    MainFeatures_2:NewToggle("Fresh", "Free Dance", function(p1_0, p2_0, p3_0)
+        if p1_0 then -- ran, expr id 29, has an else.
+            local Animation_5 = Instance.new("Animation")
+        end
+        Animation_5.AnimationId = "rbxassetid://13379953736"
+        local Humanoid_65 = LocalPlayer.Character.Humanoid
+        local LoadAnimation_10 = Humanoid_65:LoadAnimation(Animation_5)
+        LoadAnimation_10:Play()
+        LoadAnimation_10:AdjustSpeed(1.1)
+    end)
+    MainFeatures_2:NewToggle("TrashBro", "Free Dance", function(p1_0, p2_0, p3_0)
+        local Animation_6 = Instance.new("Animation")
+        Animation_6.AnimationId = "rbxassetid://16630019178"
+        local Humanoid_66 = LocalPlayer.Character.Humanoid
+        local LoadAnimation_12 = Humanoid_66:LoadAnimation(Animation_6)
+        LoadAnimation_12:Play()
+        LoadAnimation_12:AdjustSpeed(1.1)
+    end)
+    local _ = MainFeatures_2:NewToggle("Take The L", "Free Dance", function(p1_0)
+        local var386 = (p1_0 and 15542747); -- 15542747
+        local Animation_7 = Instance.new("Animation");
+        Animation_7.AnimationId = "rbxassetid://13978602670";
+        local Players_24 = game.Players;
+        local LocalPlayer_11 = Players.LocalPlayer;
+        local Character_251 = LocalPlayer.Character;
+        local Humanoid_67 = Character_251.Humanoid;
+        local LoadAnimation_13 = Humanoid_67.LoadAnimation;
+        local LoadAnimation_14 = Humanoid_67:LoadAnimation(Animation_7);
+        local Play_13 = LoadAnimation_14.Play;
+        local Play_14 = LoadAnimation_14:Play();
+        local AdjustSpeed_13 = LoadAnimation_14.AdjustSpeed;
+        local AdjustSpeed_14 = LoadAnimation_14:AdjustSpeed(1.1);
+    end)
+    local _ = MainFeatures_2:NewToggle("Griddy", "Free Dance", function(p1_0, p2_0, p3_0, p4_0)
+        local var390 = (p1_0 and 13589919); -- 13589919
+        local Animation_8 = Instance.new("Animation");
+        Animation_8.AnimationId = "rbxassetid://13379929865";
+        local Players_25 = game.Players;
+        local LocalPlayer_12 = Players.LocalPlayer;
+        local Character_252 = LocalPlayer.Character;
+        local Humanoid_68 = Character_252.Humanoid;
+        local LoadAnimation_15 = Humanoid_68.LoadAnimation;
+        local LoadAnimation_16 = Humanoid_68:LoadAnimation(Animation_8);
+        local Play_15 = LoadAnimation_16.Play;
+        local Play_16 = LoadAnimation_16:Play();
+        local AdjustSpeed_15 = LoadAnimation_16.AdjustSpeed;
+        local AdjustSpeed_16 = LoadAnimation_16:AdjustSpeed(1.1);
+    end)
+    MainFeatures_2:NewButton("Bat", "Free Dance", function(p1_0)
+        local Animation_9 = Instance.new("Animation")
+        Animation_9.AnimationId = "rbxassetid://13970293395"
+        local Humanoid_69 = LocalPlayer.Character.Humanoid
+        local LoadAnimation_18 = Humanoid_69:LoadAnimation(Animation_9)
+        LoadAnimation_18:Play()
+        LoadAnimation_18:AdjustSpeed(1.1)
+    end)
+    MainFeatures_2:NewButton("Strudy", "Free Dance", function(p1_0)
+        local Animation_10 = Instance.new("Animation")
+        Animation_10.AnimationId = "rbxassetid://13970127856"
+        local Humanoid_70 = LocalPlayer.Character.Humanoid
+        local LoadAnimation_20 = Humanoid_70:LoadAnimation(Animation_10)
+        LoadAnimation_20:Play()
+        LoadAnimation_20:AdjustSpeed(1.5)
+    end)
+    MainFeatures_2:NewButton("Backflip", "Free Dance", function(p1_0, p2_0, p3_0, p4_0)
+        local Animation_11 = Instance.new("Animation")
+        Animation_11.AnimationId = "rbxassetid://13978499853"
+        local Humanoid_71 = LocalPlayer.Character.Humanoid
+        local LoadAnimation_22 = Humanoid_71:LoadAnimation(Animation_11)
+        LoadAnimation_22:Play()
+        LoadAnimation_22:AdjustSpeed(1.1)
+    end)
+    Settings_2:NewLabel("Made By Legend HandlesYT")
+    Settings_2:NewKeybind("Toggle UI", "Toggle The UI", Enum_KeyCode.L, function(p1_0)
+        Loaded_Var8:ToggleUI()
+    end)
+end)
+local Connection_2
+Connection_2 = CopyButton.MouseButton1Down:Connect(function(X_3) -- args: X_4, Y_2
+    local setclipboard = Env.setclipboard
+    setclipboard(TextBoxDisplay.Text)
+    local StarterGui = game:GetService("StarterGui")
+end)
+local Connection_3
+Connection_3 = JoinButton.MouseButton1Down:Connect(function(X_5, Y_3, p3_0, p4_0) -- args: X_6, Y_4
+    setclipboard("https://discord.gg/dtQKPPCyfK")
+    game:GetService("StarterGui")
+    StarterGui:SetCore("SendNotification", {
+        Text = "Copied Discord link to clipboard!",
+        Title = "Discord",
+        Duration = 5,
+    })
+end)
